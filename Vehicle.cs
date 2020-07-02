@@ -13,12 +13,4 @@ public class Vehicle :Engine , IVehicle
     {
         Console.WriteLine("Your vehicle is stopped");
     }
-    // public void PetrolEngine()
-    // {
-    //     Console.WriteLine("Your vehicle is running with petrol");
-    // }
-    // public void DieselEngine()
-    // {
-    //     Console.WriteLine("Your vehicle is running with Diesel");
-    // }
 }
