@@ -1,5 +1,5 @@
 using System;
-public class Vehicle :IEngine
+public class Vehicle :IVehicle
 {
     public void Start()
     {
@@ -13,4 +13,12 @@ public class Vehicle :IEngine
     {
         Console.WriteLine("Your vehicle is stopped");
     }
+    // public void PetrolEngine()
+    // {
+    //     Console.WriteLine("Your vehicle is running with petrol");
+    // }
+    // public void DieselEngine()
+    // {
+    //     Console.WriteLine("Your vehicle is running with Diesel");
+    // }
 }

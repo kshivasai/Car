@@ -1,4 +1,4 @@
-public interface IEngine
+public interface IVehicle
 {
     void Start();
     void Accerlate();

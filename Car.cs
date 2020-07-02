@@ -15,7 +15,7 @@ public class Car
         cheavyBeat.Accerlate();
         cheavyBeat.Stop();
 
-        TataNexon tataNexon =new TataNexon();
+        TataNexon tataNexon = new TataNexon();
         Console.WriteLine("Car model is : {0}", tataNexon.modelName);
         tataNexon.Start();
         tataNexon.Accerlate();
