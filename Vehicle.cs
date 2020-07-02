@@ -1,5 +1,5 @@
 using System;
-public class Vehicle :IVehicle
+public class Vehicle :Engine , IVehicle
 {
     public void Start()
     {
