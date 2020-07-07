@@ -1,6 +1,6 @@
 using System;
 
-public class TataNexon : Vehicle
+public class TataNexon : Car
 {
     public string modelName = "Tata Nexon";
 }

@@ -1,6 +1,6 @@
 public interface IVehicle
 {
-    void Start();
-    void Accerlate();
-    void Stop();
+    string Start();
+    string Accerlate();
+    string Stop();
 }

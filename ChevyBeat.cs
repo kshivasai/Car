@@ -1,6 +1,6 @@
 using System;
 
-public class CheavyBeat : Vehicle
+public class CheavyBeat : Car
 {
     public string modelName = "Cheavy Beat";
 }

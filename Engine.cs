@@ -1,12 +1,9 @@
 using System;
-public class Engine
+class Engine : IEngine
 {
-    public void PetrolEngine()
+    public string Engine()
     {
-        Console.WriteLine("Your vehicle is running with petrol");
+        return string.Format("Engine started");
     }
-    public void DieselEngine()
-    {
-        Console.WriteLine("Your vehicle is running with Diesel");
-    }
+    
 }
